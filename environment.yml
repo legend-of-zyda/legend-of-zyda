@@ -1,0 +1,33 @@
+# Competition environment: https://github.com/Lux-AI-Challenge/Lux-Design-2021/blob/master/kaggle_engine/pythonpackages.txt
+name: loz
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.10
+  - pip=21.0.1
+  - isort
+  - yapf
+  - pylint
+  - docformatter
+  - cma=3.0.3
+  - numpy=1.20.1
+  - matplotlib=3.3.4
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - pip:
+      - kaggle-environments
+      - fire
+      - logdir==0.11.1
+      - loguru==0.5.3
+      - requests
+      # Dask
+      - dask==2.30.0
+      - distributed==2.30.0
+      - click==7.1.2 # Newer click causes error with dask scheduler.
+      - bokeh==2.2.3
+      - jupyter-server-proxy==1.5.0

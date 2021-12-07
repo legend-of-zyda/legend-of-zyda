@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+env/
+env2/
+logs/
+results/
+outcmaes/
+dask-worker-space/
+.ipynb_checkpoints/
+
+# Editor
+*.swp
+
+# Competition
+submission.tar.gz
+lux-ai-2021
+replay.json
+imitation_replay.json
+errorlogs/
+replays/
+*.log
+
+# MacOS
+.DS_Store
